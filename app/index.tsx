@@ -1,6 +1,8 @@
 import { View, Text, Button, StyleSheet } from 'react-native';
 import List from '../components/list';
 import { useRouter } from 'expo-router'; 
+import vacationDestinations from '../lib/vacationsDestinations';
+
 
 export default function Home() {
   const router = useRouter();
@@ -16,6 +18,10 @@ export default function Home() {
 
       <View style={{ marginTop: 20 }}>
         <Button title="Lab 3" onPress={() => router.push('/lab3')} />
+      </View>
+
+       <View style={{ marginTop: 20 }}>
+        <Button title="Lab 4" onPress={() => router.push('/lab4')} />
       </View>
 
       <Text style={styles.subtitle}>Fruit List:</Text>
