@@ -16,6 +16,10 @@ export default function Home() {
       <Text style={styles.title}>Welcome to the App!</Text>
       <Button title="Click Me" onPress={handlePress} />
 
+       <View style={{ marginTop: 20 }}>
+        <Button title="Lab 5" onPress={() => router.push('/lab5')} />
+      </View>
+
       <View style={{ marginTop: 20 }}>
         <Button title="Lab 3" onPress={() => router.push('/lab3')} />
       </View>
