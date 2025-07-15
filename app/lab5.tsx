@@ -8,6 +8,7 @@ type User = {
   name: string;
 };
 
+//
 export default function Lab5() {
   const [users, setUsers] = useState<User[]>([]);
   const [loading, setLoading] = useState(false);
